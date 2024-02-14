@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@429&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+.A-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    
+}
+
+.about img{
+    margin-right: 0.5em;
+    margin-left: 2em;
+   
+}
+
+.kitty-img{
+    width: 100%;
+    height: 120vh;
+}
+
+.content{
+    margin-top: 230px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content h1{
+    font-size: 3em;
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.content p{
+    font-size: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.Card-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.Cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.Car{
+    width: 400px;
+    height: auto; 
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 10px 10px rgb(0, 0, 0.2);
+    padding-right: 50px;
+    margin: 10px 0 0 10px; 
+
+}
+
+.Car img {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardconTent{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 16px;
+}
+
+.cardconTent h3{
+    margin-top: 1px;
+    margin-bottom: 3px;
+    font-size: 28px;
+}
+
+.cardconTent p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.Car button{
+
+    border: 2px solid rgb(50, 50, 248);
+    background-color: rgb(50, 50, 248);
+    width: 10em;
+    height: 40px;
+    color: aliceblue;
+}
+
